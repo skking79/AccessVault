@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">AccessVault</string>
+    <string name="unlock_accessvault">Unlock AccessVault</string>
+    <string name="please_authenticate_to_continue">Please authenticate to continue.</string>
+    <string name="authenticate_button">Authenticate</string>
+    <string name="no_credentials_saved">No credentials saved yet.\nTap \'+\' to add.</string>
+    <string name="add_credential_fab_description">Add Credential</string>
+    <string name="site_app_name_hint">Site/App Name (e.g., google.com)</string>
+    <string name="biometric_prompt_title">Unlock AccessVault</string>
+    <string name="biometric_prompt_subtitle">Use fingerprint or face unlock</string>
+    <string name="error_no_biometric_hardware">No biometric features available</string>
+    <string name="error_biometric_unavailable">Biometric features are currently unavailable</string>
+    <string name="error_unknown_biometric_status">Unknown biometric status</string>
+    <string name="error_launching_enrollment">Failed to launch biometric enrollment</string>
+    <string name="username_or_email_hint">Username or Email</string>
+    <string name="password_hint">Password</string>
+
+    <string name="save_credential_button">Save Credential</string>
+    <string name="site_name_item_default">Site Name</string>
+    <string name="username_item_default">Username</string>
+    <string name="delete_credential_title">Delete Credential</string>
+    <string name="delete_credential_confirm_message">Are you sure you want to delete the credential for %s?</string>
+    <string name="delete_button">Delete</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="all_fields_required">All fields are required.</string>
+    <string name="credential_saved_successfully">Credential saved successfully!</string>
+    <string name="failed_to_save_credential">Failed to save credential. Site may already exist or error occurred.</string>
+    <string name="error_saving_credential">Error saving credential: %s</string>
+    <string name="error_loading_credentials">Error loading credentials: %s</string>
+    <string name="autofill_settings_label">AccessVault Settings</string>
+
+    <string name="delete_credential_message">Are you sure you want to delete this credential?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="password_copied">Password copied to clipboard</string>
+    <string name="credential_deleted">Credential deleted</string>
+    <string name="autofill_service_label">AccessVault Autofill</string>
+</resources>

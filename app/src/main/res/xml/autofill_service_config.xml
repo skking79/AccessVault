@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<autofill-service xmlns:android="http://schemas.android.com/apk/res/android">
+    <authentication-type value="none" />
+    <save-trigger>
+        <required-field android:autofillHints="@string/username_item_default" />
+        <required-field android:autofillHints="@string/username_or_email_hint" />
+        <required-field android:autofillHints="@string/password_hint" />
+
+        <required-field android:autofillHints="password" />
+    </save-trigger>
+</autofill-service>

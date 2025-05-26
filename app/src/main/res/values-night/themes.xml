@@ -1,0 +1,12 @@
+<resources>
+    <style name="Theme.AccessVault" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Dark Mode Specific Overrides -->
+        <item name="android:background">@color/background</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/onSurface</item>
+
+        <!-- Optional override for primary color if needed -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryContainer">@color/purple_700</item>
+    </style>
+</resources>
