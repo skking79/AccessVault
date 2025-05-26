@@ -29,26 +29,23 @@ A secure Android app that stores credentials using **AES encryption**, provides 
 5. When logging into other apps, system prompts to use **AccessVault autofill**
 
 ---
-
 ## 📸 Screenshots
 
-
 ### 1. Biometric Login Screen  
-![image](https://github.com/user-attachments/assets/4b778583-e32d-496c-ac55-4f6d1f9647f1)
-
+<img src="https://github.com/user-attachments/assets/4b778583-e32d-496c-ac55-4f6d1f9647f1" alt="Biometric Login" width="180"/>
 
 ### 2. Main Page View  
-![image](https://github.com/user-attachments/assets/24c849c0-5b3d-4570-82fd-80c872c80ef8)
+<img src="https://github.com/user-attachments/assets/24c849c0-5b3d-4570-82fd-80c872c80ef8" alt="Main Page" width="180"/>
 
 
 ### 3. Add Credential Form  
-![image](https://github.com/user-attachments/assets/9bc6fe36-c40c-459b-9c88-da12c91e72a2)
+<img src="https://github.com/user-attachments/assets/9bc6fe36-c40c-459b-9c88-da12c91e72a2" alt="Main Page" width="180"/>
 
 ### 4. Saved Credential View  
-![image](https://github.com/user-attachments/assets/984c8547-9205-4de2-9cb6-596fb8675125)
+<img src="https://github.com/user-attachments/assets/984c8547-9205-4de2-9cb6-596fb8675125" alt="Main Page" width="180"/>
 
 ### 4. Edit Credential View
-![image](https://github.com/user-attachments/assets/eb63337b-2ef7-441d-b148-be4bc074d96d)
+<img src="https://github.com/user-attachments/assets/eb63337b-2ef7-441d-b148-be4bc074d96d" alt="Main Page" width="180"/>
 
 
 ---
