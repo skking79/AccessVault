@@ -1,84 +1,86 @@
-# 🔐 AccessVault – Biometric Password Manager
+# AccessVault 🔐
 
-A secure Android app that stores credentials using **AES encryption**, provides **biometric authentication**, and supports **Android Autofill Framework** for seamless login across apps.
+![AccessVault](https://img.shields.io/badge/AccessVault-Secure%20Password%20Manager-blue)
 
-## 📱 Features
+Welcome to **AccessVault**, a secure Android password manager designed to keep your credentials safe and easily accessible. With features like biometric login, AES-encrypted storage, and autofill support, AccessVault offers a user-friendly experience without compromising security.
 
-- ✅ **Biometric Login**: Fingerprint or Face ID unlock support.
-- 🔒 **Encrypted Storage**: Uses AES/CBC + Android Keystore to securely store usernames and passwords.
-- 🧩 **Autofill Service**: Auto-fills credentials into external apps like browsers or login forms.
-- 🖊️ **Add/Edit/Delete Credentials**: Full CRUD operations with database conflict handling.
-- 📋 **Copy Username/Password**: Inline buttons to copy data to clipboard.
-- 🗂️ **Custom XML Layouts**: Card-based UI for credentials with inline actions.
+## Table of Contents
 
-## 🛠 Built With
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Releases](#releases)
 
-- **Java** – Android app logic
-- **Android Studio** – IDE
-- **SQLite + AES Encryption** – Secure local storage
-- **AndroidX Biometric Library** – For biometric authentication
-- **Android Autofill Framework** – For auto-login support
-- **Material Design** – Modern UI components
+## Features 🌟
 
-## 🧾 How It Works
+- **Biometric Login**: Access your passwords quickly and securely using fingerprint or facial recognition.
+- **AES Encryption**: All stored data is protected with AES encryption, ensuring that only you can access your passwords.
+- **Autofill Support**: Easily fill in login credentials on apps and websites without the need to remember every password.
+- **User-Friendly Interface**: Designed with simplicity in mind, making it easy for anyone to manage their passwords.
+- **SQLite Database**: Utilizes SQLite for efficient and reliable data storage.
 
-1. User authenticates via **fingerprint or face recognition**
-2. Vault shows all saved credentials
-3. Tap icons to **copy username or password**
-4. Long press to **Edit or Delete** a credential
-5. When logging into other apps, system prompts to use **AccessVault autofill**
+## Technologies Used 🛠️
+
+AccessVault is built using a variety of technologies to ensure a robust and secure application:
+
+- **Android**: The primary platform for the application.
+- **Java**: The programming language used for development.
+- **SQLite**: For local data storage.
+- **Biometric Authentication**: For secure access.
+- **AES Encryption**: For data security.
+
+## Installation 📥
+
+To install AccessVault, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/skking79/AccessVault.git
+   ```
+2. Open the project in Android Studio.
+3. Build the project to ensure all dependencies are correctly set up.
+4. Run the application on your Android device or emulator.
+
+For the latest version, please check the [Releases](https://github.com/skking79/AccessVault/releases) section.
+
+## Usage 📖
+
+Using AccessVault is straightforward:
+
+1. **Create an Account**: Open the app and create a new account. You will set up a master password for initial access.
+2. **Add Passwords**: Use the "Add Password" feature to store your credentials. You can add details like the website, username, and password.
+3. **Enable Autofill**: Go to your device settings and enable the autofill service for AccessVault. This allows the app to fill in your passwords automatically.
+4. **Log In Biometrically**: After setting up biometric authentication, you can log in using your fingerprint or face recognition.
+
+## Contributing 🤝
+
+We welcome contributions to AccessVault! If you'd like to contribute, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push your branch to your forked repository.
+5. Open a pull request with a clear description of your changes.
+
+## License 📜
+
+AccessVault is licensed under the MIT License. You can use, modify, and distribute the software freely, but please include the original license in any distributed software.
+
+## Contact 📬
+
+For questions or suggestions, feel free to reach out:
+
+- **Email**: support@accessvault.com
+- **GitHub**: [skking79](https://github.com/skking79)
+
+## Releases 📦
+
+To download the latest version of AccessVault, visit the [Releases](https://github.com/skking79/AccessVault/releases) section. You can find the APK file there, which you need to download and execute on your Android device.
 
 ---
-## 📸 Screenshots
 
-### 1. Biometric Login Screen  
-<img src="https://github.com/user-attachments/assets/4b778583-e32d-496c-ac55-4f6d1f9647f1" alt="Biometric Login" width="180"/>
-
-### 2. Main Page View  
-<img src="https://github.com/user-attachments/assets/24c849c0-5b3d-4570-82fd-80c872c80ef8" alt="Main Page" width="180"/>
-
-
-### 3. Add Credential Form  
-<img src="https://github.com/user-attachments/assets/9bc6fe36-c40c-459b-9c88-da12c91e72a2" alt="Main Page" width="180"/>
-
-### 4. Saved Credential View  
-<img src="https://github.com/user-attachments/assets/984c8547-9205-4de2-9cb6-596fb8675125" alt="Main Page" width="180"/>
-
-### 4. Edit Credential View
-<img src="https://github.com/user-attachments/assets/eb63337b-2ef7-441d-b148-be4bc074d96d" alt="Main Page" width="180"/>
-
-
----
-
-## 📁 Core Files
-
-| File | Description |
-|------|-------------|
-| `LoginActivity.java` | Handles biometric unlock before accessing the vault |
-| `VaultActivity.java` | Main screen showing card-based credential list |
-| `AddCredentialActivity.java` | UI for adding/editing credentials with validation |
-| `DBHelper.java` | Manages encrypted SQLite operations |
-| `MyAutofillService.java` | Implements Android Autofill Framework |
-| `AutofillHelper.java` | Parses assist structures to detect fields in external apps |
-| `CredentialsAdapter.java` | Binds credentials to the list view |
-| `Credential.java` | Model class representing each credential |
-
----
-
-## 🧪 How to Build & Run
-
-### Requirements
-- Android Studio 
-- Target SDK: 35 (Android U)
-- Java 17+
-- Physical/Virtual(From AndroidStudio) device with fingerprint/face unlock
-
-
-## 📱 Usage
-Once a user saves a credential:
-1. AccessVault encrypts and stores it securely.
-2. When logging into other apps, the system triggers **Autofill**, and AccessVault suggests saved credentials.
-3. The user authenticates with biometrics to autofill securely.
-
-## 📄 License
-This project is licensed under the **MIT License**. See the [LICENSE](./LICENSE) file for details.
+Thank you for checking out AccessVault! We hope it helps you manage your passwords securely and conveniently. Your feedback is valuable to us, so please share your thoughts and experiences.
